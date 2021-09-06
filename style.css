@@ -1,0 +1,105 @@
+/*
+Theme Name:  Enrique
+Text Domain: Enrique
+Version:  1.0
+Description:  Put description here
+Tags:  put, some, tags, here
+Author: Enrique
+Author URI: https://enriquerdl.com/
+*/
+
+/* CSS RESET */
+html,body,div,span,applet,object,iframe,a,abbr,acronym,address,big,cite,code,del,dfn,em,font,img,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,var,dl,dt,dd,ol,ul,li,h1,h2,h3,h4,h5,h6,pre,form,fieldset,input,textarea,label,legend,p,blockquote,table,caption,tbody,tfoot,thead,tr,th,td{margin:0;padding:0;border:0;outline:0;font-weight:inherit;font-style:inherit;font-size:100%;font-family:inherit;vertical-align:baseline;}body{line-height:1;color:black;background:white;}:focus{outline:0;}table{border-collapse:collapse;border-spacing:0;}caption,th,td{text-align:left;font-weight:normal;}fieldset,img{border:0;}address,caption,cite,code,dfn,em,strong,th,var{font-style:normal;font-weight:normal;}ol,ul{list-style:none;}h1,h2,h3,h4,h5,h6{font-size:100%;font-weight:normal;}blockquote:before,blockquote:after,q:before,q:after{content:"";}blockquote,q{quotes:"" "";}abbr,acronym{border:0;}*,:before,:after{-webkit-box-sizing:border-box;-moz-box-sizing:border-box;-ms-box-sizing:border-box;box-sizing:border-box;}
+::-moz-selection {
+	background: #f06;
+	color: #050505;
+	text-shadow: none;
+}
+::selection {
+	background: #f06;
+	color: #050505;
+	text-shadow: none;
+}
+body {
+	background: #fdfdfd;
+	color: #2d2d2d;
+	font-family: Sans-Serif;
+}
+.wrap {
+	margin: 0 auto;
+	width: 960px;
+	text-align: left;
+}
+a,
+a:visited {
+	color: inherit;
+	text-decoration: none;
+}
+
+
+
+
+/* =============== Header CSS =============== */
+.main-header {
+	line-height: 1.5;
+}
+.main-logo {
+	display: block;
+	height: 75px;
+	float: left;
+}
+.main-blog-name {
+	font-size: 2em;
+}
+.main-nav {
+
+}
+.main-nav .main-menu {
+
+}
+.main-nav .main-menu li {
+	float: left;
+	margin-right: 2em;
+}
+.main-nav .main-menu a {
+	display: block;
+}
+.main-title {
+	clear: both;
+	margin-top: 1em;
+	font-size: 3em;
+	font-weight: 700;
+}
+
+
+
+/* =============== Article CSS =============== */
+.art-container {
+	line-height: 1.5;
+}
+
+
+
+/* =============== Article CSS =============== */
+
+
+
+
+/* =============== Footer CSS =============== */
+.main-footer {
+
+}
+
+
+
+
+/* PRESET STYLES */
+.clearfix{clear:both!important;}
+.no-read{speak:none;}
+.no-see,[hidden]{position:absolute;left:-9999px;}
+.no-select{-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none;}
+.none{display:none;}
+.align-left{text-align:left;}
+.align-center{text-align:center;}
+.align-right{text-align:right;}
+.align-justify{text-align:justify;}
